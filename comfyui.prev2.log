@@ -1,0 +1,447 @@
+** ComfyUI startup time: 2024-04-05 20:00:53.214901
+[2024-04-05 20:00] ** Platform: Windows
+[2024-04-05 20:00] ** Python version: 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]
+[2024-04-05 20:00] ** Python executable: E:\ComfyUI\venv\Scripts\python.exe
+[2024-04-05 20:00] ** Log path: E:\ComfyUI\comfyui.log
+[2024-04-05 20:00] 
+Prestartup times for custom nodes:
+[2024-04-05 20:00]    0.0 seconds: E:\ComfyUI\custom_nodes\rgthree-comfy
+[2024-04-05 20:00]    0.3 seconds: E:\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-04-05 20:00] 
+Total VRAM 8192 MB, total RAM 32697 MB
+[2024-04-05 20:00] xformers version: 0.0.24
+[2024-04-05 20:00] Set vram state to: NORMAL_VRAM
+[2024-04-05 20:00] Device: cuda:0 NVIDIA GeForce RTX 3060 Ti : cudaMallocAsync
+[2024-04-05 20:00] VAE dtype: torch.bfloat16
+[2024-04-05 20:00] Using xformers cross attention
+[2024-04-05 20:00] Adding extra search path checkpoints E:\stable-diffusion-webui\models/Stable-diffusion
+[2024-04-05 20:00] Adding extra search path configs E:\stable-diffusion-webui\models/Stable-diffusion
+[2024-04-05 20:00] Adding extra search path vae E:\stable-diffusion-webui\models/VAE
+[2024-04-05 20:00] Adding extra search path loras E:\stable-diffusion-webui\models/Lora
+[2024-04-05 20:00] Adding extra search path loras E:\stable-diffusion-webui\models/LyCORIS
+[2024-04-05 20:00] Adding extra search path upscale_models E:\stable-diffusion-webui\models/ESRGAN
+[2024-04-05 20:00] Adding extra search path upscale_models E:\stable-diffusion-webui\models/RealESRGAN
+[2024-04-05 20:00] Adding extra search path upscale_models E:\stable-diffusion-webui\models/SwinIR
+[2024-04-05 20:00] Adding extra search path embeddings E:\stable-diffusion-webui\embeddings
+[2024-04-05 20:00] Adding extra search path hypernetworks E:\stable-diffusion-webui\models/hypernetworks
+[2024-04-05 20:00] Adding extra search path controlnet E:\stable-diffusion-webui\models/ControlNet
+[2024-04-05 20:00] Error:
+[WinError 1314] O cliente não tem o privilégio necessário: 'E:\\ComfyUI\\custom_nodes\\ComfyLiterals\\js' -> 'E:\\ComfyUI\\web\\extensions\\ComfyLiterals'
+Failed to create symlink to E:\ComfyUI\web\extensions\ComfyLiterals. Please copy the folder manually.
+Source: E:\ComfyUI\custom_nodes\ComfyLiterals\js
+Target: E:\ComfyUI\web\extensions\ComfyLiterals
+[2024-04-05 20:00] Adding E:\ComfyUI\custom_nodes to sys.path
+[2024-04-05 20:00] [36mEfficiency Nodes:[0m Attempting to add Control Net options to the 'HiRes-Fix Script' Node (comfyui_controlnet_aux add-on)...[92mSuccess![0m
+[2024-04-05 20:00] Loaded efficiency nodes from E:\ComfyUI\custom_nodes\efficiency-nodes-comfyui
+[2024-04-05 20:00] Loaded ControlNetPreprocessors nodes from E:\ComfyUI\custom_nodes\comfyui_controlnet_aux
+[2024-04-05 20:00] Could not find AdvancedControlNet nodes
+[2024-04-05 20:00] Could not find AnimateDiff nodes
+[2024-04-05 20:00] Loaded IPAdapter nodes from E:\ComfyUI\custom_nodes\ComfyUI_IPAdapter_plus
+[2024-04-05 20:00] metaclass conflict: the metaclass of a derived class must be a (non-strict) subclass of the metaclasses of all its bases
+[2024-04-05 20:00] Loaded VideoHelperSuite from E:\ComfyUI\custom_nodes\ComfyUI-VideoHelperSuite
+[2024-04-05 20:00] ### Loading: ComfyUI-Impact-Pack (V4.85.2)
+[2024-04-05 20:00] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
+[2024-04-05 20:00] [Impact Pack] Wildcards loading done.
+[2024-04-05 20:00] [36;20m[inference_core_nodes.controlnet_preprocessors] | INFO -> Using ckpts path: E:\ComfyUI\custom_nodes\ComfyUI-Inference-Core-Nodes\src\inference_core_nodes\controlnet_preprocessors\ckpts[0m
+[2024-04-05 20:00] [36;20m[inference_core_nodes.controlnet_preprocessors] | INFO -> Using symlinks: False[0m
+[2024-04-05 20:00] [36;20m[inference_core_nodes.controlnet_preprocessors] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-04-05 20:00] E:\ComfyUI\venv\lib\site-packages\diffusers\utils\outputs.py:63: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  torch.utils._pytree._register_pytree_node(
+[2024-04-05 20:00] ### Loading: ComfyUI-Manager (V2.15)
+[2024-04-05 20:00] ### ComfyUI Revision: 2096 [6c6a3925] | Released on '2024-04-02'
+[2024-04-05 20:00] (pysssss:WD14Tagger) [DEBUG] Available ORT providers: TensorrtExecutionProvider, CUDAExecutionProvider, CPUExecutionProvider
+[2024-04-05 20:00] (pysssss:WD14Tagger) [DEBUG] Using ORT providers: CUDAExecutionProvider, CPUExecutionProvider
+[2024-04-05 20:00] ------------------------------------------
+[2024-04-05 20:00] [34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+[2024-04-05 20:00] ------------------------------------------
+[2024-04-05 20:00] ** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+[2024-04-05 20:00] ** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+[2024-04-05 20:00] ------------------------------------------
+[2024-04-05 20:00] 
+[2024-04-05 20:00] [92m[rgthree] Loaded 36 epic nodes.[0m
+[2024-04-05 20:00] [92m[rgthree] Will use rgthree's optimized recursive execution.[0m
+[2024-04-05 20:00] 
+[2024-04-05 20:00] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-04-05 20:00] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-04-05 20:00] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-04-05 20:00] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-04-05 20:00] [34mWAS Node Suite: [0mBlenderNeko's Advanced CLIP Text Encode found, attempting to enable `CLIPTextEncode` support.[0m
+[2024-04-05 20:00] [34mWAS Node Suite: [0m`CLIPTextEncode (BlenderNeko Advanced + NSP)` node enabled under `WAS Suite/Conditioning` menu.[0m
+[2024-04-05 20:00] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-04-05 20:00] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `E:\ComfyUI\custom_nodes\was-node-suite-comfyui\was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-04-05 20:01] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m212[0m [32mnodes successfully.[0m
+[2024-04-05 20:01] 
+	[3m[93m"Art enables us to find ourselves and lose ourselves at the same time."[0m[3m - Thomas Merton[0m
+[2024-04-05 20:01] 
+[2024-04-05 20:01] 
+Import times for custom nodes:
+[2024-04-05 20:01]    0.0 seconds: E:\ComfyUI\custom_nodes\efficiency-nodes-comfyui
+[2024-04-05 20:01]    0.0 seconds: E:\ComfyUI\custom_nodes\websocket_image_save.py
+[2024-04-05 20:01]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyUI_IPAdapter_plus
+[2024-04-05 20:01]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyUI-Logic
+[2024-04-05 20:01]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyUI-VideoHelperSuite
+[2024-04-05 20:01]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyUI_ADV_CLIP_emb
+[2024-04-05 20:01]    0.0 seconds: E:\ComfyUI\custom_nodes\comfyui_controlnet_aux
+[2024-04-05 20:01]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyUI-Lora-Auto-Trigger-Words
+[2024-04-05 20:01]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyUI_essentials
+[2024-04-05 20:01]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyUI-post-processing-nodes
+[2024-04-05 20:01]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyLiterals
+[2024-04-05 20:01]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyUI-WD14-Tagger
+[2024-04-05 20:01]    0.0 seconds: E:\ComfyUI\custom_nodes\comfyui-inpaint-nodes
+[2024-04-05 20:01]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyUI-Custom-Scripts
+[2024-04-05 20:01]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyUI-Frame-Interpolation
+[2024-04-05 20:01]    0.0 seconds: E:\ComfyUI\custom_nodes\Derfuu_ComfyUI_ModdedNodes
+[2024-04-05 20:01]    0.0 seconds: E:\ComfyUI\custom_nodes\rgthree-comfy
+[2024-04-05 20:01]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyUI_Comfyroll_CustomNodes
+[2024-04-05 20:01]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyUI-KJNodes
+[2024-04-05 20:01]    0.1 seconds: E:\ComfyUI\custom_nodes\ComfyUI-Inference-Core-Nodes
+[2024-04-05 20:01]    0.2 seconds: E:\ComfyUI\custom_nodes\ComfyUI-Gemini
+[2024-04-05 20:01]    0.3 seconds: E:\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-04-05 20:01]    0.4 seconds: E:\ComfyUI\custom_nodes\ComfyUI-Impact-Pack
+[2024-04-05 20:01]    0.6 seconds: E:\ComfyUI\custom_nodes\comfyui-art-venture
+[2024-04-05 20:01]    1.6 seconds: E:\ComfyUI\custom_nodes\was-node-suite-comfyui
+[2024-04-05 20:01] 
+[2024-04-05 20:01] Starting server
+
+[2024-04-05 20:01] To see the GUI go to: http://0.0.0.0:8188
+[2024-04-05 20:01] FETCH DATA from: E:\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json
+[2024-04-05 20:04] got prompt
+[2024-04-05 20:04] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:04] [32m[rgthree][0m First run patching recursive_output_delete_if_changed and recursive_will_execute.[0m
+[2024-04-05 20:04] [33m[rgthree] Note: [0mIf execution seems broken due to forward ComfyUI changes, you can disable the optimization from rgthree settings in ComfyUI.[0m
+[2024-04-05 20:04] 1girl, solo, long_hair, breasts, looking_at_viewer, blush, smile, open_mouth, brown_hair, navel, cleavage, jewelry, bare_shoulders, standing, underwear, purple_eyes, collarbone, panties, heart, thighs, pantyhose, cowboy_shot, earrings, red_hair, censored, detached_sleeves, penis, necklace, nail_polish, huge_breasts, mosaic_censoring, bracelet, covered_nipples, see-through, covered_navel, erection, testicles, hand_on_own_chest, red_nails, side-tie_panties, skin_tight, curvy, veins, futanari, shiny_clothes, mature_female, veiny_penis, huge_penis, crotchless, half-erect
+[2024-04-05 20:04] model_type EPS
+[2024-04-05 20:04] Using xformers attention in VAE
+[2024-04-05 20:04] Using xformers attention in VAE
+[2024-04-05 20:04] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-04-05 20:04] Requested to load SD1ClipModel
+[2024-04-05 20:04] Loading 1 new model
+[2024-04-05 20:04] E:\ComfyUI\comfy\ldm\modules\attention.py:345: UserWarning: 1Torch was not compiled with flash attention. (Triggered internally at ..\aten\src\ATen\native\transformers\cuda\sdp_utils.cpp:263.)
+  out = torch.nn.functional.scaled_dot_product_attention(q, k, v, attn_mask=mask, dropout_p=0.0, is_causal=False)
+[2024-04-05 20:04] Requested to load AutoencoderKL
+[2024-04-05 20:04] Loading 1 new model
+[2024-04-05 20:05] Requested to load BaseModel
+[2024-04-05 20:05] Loading 1 new model
+[2024-04-05 20:05] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:48<00:00,  1.18it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:48<00:00,  1.24it/s]
+[2024-04-05 20:05] Prompt executed in 63.79 seconds
+[2024-04-05 20:07] got prompt
+[2024-04-05 20:07] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:07] 1girl, solo, long_hair, breasts, looking_at_viewer, blush, smile, open_mouth, brown_hair, navel, cleavage, jewelry, bare_shoulders, standing, underwear, purple_eyes, collarbone, panties, heart, thighs, pantyhose, cowboy_shot, earrings, red_hair, censored, detached_sleeves, penis, necklace, nail_polish, huge_breasts, mosaic_censoring, bracelet, covered_nipples, see-through, covered_navel, erection, testicles, hand_on_own_chest, red_nails, side-tie_panties, skin_tight, curvy, veins, futanari, shiny_clothes, mature_female, veiny_penis, huge_penis, crotchless, half-erect
+[2024-04-05 20:07] Requested to load SD1ClipModel
+[2024-04-05 20:07] Loading 1 new model
+[2024-04-05 20:07] Prompt executed in 2.02 seconds
+[2024-04-05 20:07] got prompt
+[2024-04-05 20:07] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:07] Prompt executed in 0.00 seconds
+[2024-04-05 20:08] got prompt
+[2024-04-05 20:08] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:08] Requested to load BaseModel
+[2024-04-05 20:08] Loading 1 new model
+[2024-04-05 20:09] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:50<00:00,  1.21it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:50<00:00,  1.19it/s]
+[2024-04-05 20:09] Prompt executed in 53.18 seconds
+[2024-04-05 20:09] got prompt
+[2024-04-05 20:09] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:09] Requested to load BaseModel
+[2024-04-05 20:09] Loading 1 new model
+[2024-04-05 20:10] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:47<00:00,  1.27it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:47<00:00,  1.26it/s]
+[2024-04-05 20:10] Prompt executed in 50.39 seconds
+[2024-04-05 20:10] got prompt
+[2024-04-05 20:10] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:10] Requested to load BaseModel
+[2024-04-05 20:10] Loading 1 new model
+[2024-04-05 20:11] 
+[2024-04-05 20:11] Processing interrupted
+[2024-04-05 20:11] Prompt executed in 47.79 seconds
+[2024-04-05 20:11] got prompt
+[2024-04-05 20:11] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:11] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:48<00:00,  1.10it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:48<00:00,  1.23it/s]
+[2024-04-05 20:12] Prompt executed in 51.50 seconds
+[2024-04-05 20:12] got prompt
+[2024-04-05 20:12] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:12] Requested to load BaseModel
+[2024-04-05 20:12] Loading 1 new model
+[2024-04-05 20:13] 
+[2024-04-05 20:13] Processing interrupted
+[2024-04-05 20:13] Prompt executed in 42.48 seconds
+[2024-04-05 20:13] got prompt
+[2024-04-05 20:13] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:14] 
+[2024-04-05 20:14] Processing interrupted
+[2024-04-05 20:14] Prompt executed in 35.05 seconds
+[2024-04-05 20:14] got prompt
+[2024-04-05 20:14] Failed to validate prompt for output 188:
+[2024-04-05 20:14] * SetLatentNoiseMask 195:
+[2024-04-05 20:14]   - Required input is missing: samples
+[2024-04-05 20:14] Output will be ignored
+[2024-04-05 20:14] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:14] Requested to load BaseModel
+[2024-04-05 20:14] Loading 1 new model
+[2024-04-05 20:15] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:48<00:00,  1.19it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:48<00:00,  1.23it/s]
+[2024-04-05 20:15] Prompt executed in 53.04 seconds
+[2024-04-05 20:15] got prompt
+[2024-04-05 20:15] Failed to validate prompt for output 188:
+[2024-04-05 20:15] * SetLatentNoiseMask 195:
+[2024-04-05 20:15]   - Required input is missing: samples
+[2024-04-05 20:15] Output will be ignored
+[2024-04-05 20:15] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:15] Requested to load BaseModel
+[2024-04-05 20:15] Loading 1 new model
+[2024-04-05 20:15] got prompt
+[2024-04-05 20:15] Failed to validate prompt for output 188:
+[2024-04-05 20:15] * SetLatentNoiseMask 195:
+[2024-04-05 20:15]   - Required input is missing: samples
+[2024-04-05 20:15] Output will be ignored
+[2024-04-05 20:15] got prompt
+[2024-04-05 20:15] Failed to validate prompt for output 188:
+[2024-04-05 20:15] * SetLatentNoiseMask 195:
+[2024-04-05 20:15]   - Required input is missing: samples
+[2024-04-05 20:15] Output will be ignored
+[2024-04-05 20:15] got prompt
+[2024-04-05 20:15] Failed to validate prompt for output 188:
+[2024-04-05 20:15] * SetLatentNoiseMask 195:
+[2024-04-05 20:15]   - Required input is missing: samples
+[2024-04-05 20:15] Output will be ignored
+[2024-04-05 20:15] got prompt
+[2024-04-05 20:15] Failed to validate prompt for output 188:
+[2024-04-05 20:15] * SetLatentNoiseMask 195:
+[2024-04-05 20:15]   - Required input is missing: samples
+[2024-04-05 20:15] Output will be ignored
+[2024-04-05 20:15] got prompt
+[2024-04-05 20:15] Failed to validate prompt for output 188:
+[2024-04-05 20:15] * SetLatentNoiseMask 195:
+[2024-04-05 20:15]   - Required input is missing: samples
+[2024-04-05 20:15] Output will be ignored
+[2024-04-05 20:16] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:47<00:00,  1.28it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:47<00:00,  1.26it/s]
+[2024-04-05 20:16] Prompt executed in 50.35 seconds
+[2024-04-05 20:16] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:16] Requested to load BaseModel
+[2024-04-05 20:16] Loading 1 new model
+[2024-04-05 20:17] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:47<00:00,  1.30it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:47<00:00,  1.26it/s]
+[2024-04-05 20:17] Prompt executed in 50.11 seconds
+[2024-04-05 20:17] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:17] Requested to load BaseModel
+[2024-04-05 20:17] Loading 1 new model
+[2024-04-05 20:18] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:47<00:00,  1.26it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:47<00:00,  1.27it/s]
+[2024-04-05 20:18] Prompt executed in 49.45 seconds
+[2024-04-05 20:18] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:18] Requested to load BaseModel
+[2024-04-05 20:18] Loading 1 new model
+[2024-04-05 20:19] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:48<00:00,  1.30it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:48<00:00,  1.23it/s]
+[2024-04-05 20:19] Prompt executed in 51.06 seconds
+[2024-04-05 20:19] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:19] Requested to load BaseModel
+[2024-04-05 20:19] Loading 1 new model
+[2024-04-05 20:19] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:47<00:00,  1.30it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:47<00:00,  1.26it/s]
+[2024-04-05 20:19] Prompt executed in 50.00 seconds
+[2024-04-05 20:19] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:19] Requested to load BaseModel
+[2024-04-05 20:19] Loading 1 new model
+[2024-04-05 20:20] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:47<00:00,  1.26it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:47<00:00,  1.26it/s]
+[2024-04-05 20:20] Prompt executed in 50.08 seconds
+[2024-04-05 20:21] got prompt
+[2024-04-05 20:21] Failed to validate prompt for output 188:
+[2024-04-05 20:21] * SetLatentNoiseMask 195:
+[2024-04-05 20:21]   - Required input is missing: samples
+[2024-04-05 20:21] Output will be ignored
+[2024-04-05 20:21] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:21] Requested to load SD1ClipModel
+[2024-04-05 20:21] Loading 1 new model
+[2024-04-05 20:21] Requested to load BaseModel
+[2024-04-05 20:21] Loading 1 new model
+[2024-04-05 20:22] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:48<00:00,  1.25it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:48<00:00,  1.22it/s]
+[2024-04-05 20:22] Prompt executed in 52.37 seconds
+[2024-04-05 20:23] got prompt
+[2024-04-05 20:23] Failed to validate prompt for output 188:
+[2024-04-05 20:23] * SetLatentNoiseMask 195:
+[2024-04-05 20:23]   - Required input is missing: samples
+[2024-04-05 20:23] Output will be ignored
+[2024-04-05 20:23] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:23] 1girl, solo, long_hair, breasts, looking_at_viewer, blush, smile, open_mouth, brown_hair, navel, cleavage, jewelry, bare_shoulders, standing, underwear, purple_eyes, collarbone, panties, heart, thighs, pantyhose, cowboy_shot, earrings, red_hair, censored, detached_sleeves, penis, necklace, nail_polish, huge_breasts, mosaic_censoring, bracelet, covered_nipples, see-through, covered_navel, erection, testicles, hand_on_own_chest, red_nails, side-tie_panties, skin_tight, curvy, veins, futanari, shiny_clothes, mature_female, veiny_penis, foreskin, huge_penis, crotchless, flaccid, half-erect
+[2024-04-05 20:23] Requested to load SD1ClipModel
+[2024-04-05 20:23] Loading 1 new model
+[2024-04-05 20:23] Requested to load BaseModel
+[2024-04-05 20:23] Loading 1 new model
+[2024-04-05 20:23] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:49<00:00,  1.24it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:49<00:00,  1.22it/s]
+[2024-04-05 20:24] Prompt executed in 53.49 seconds
+[2024-04-05 20:24] got prompt
+[2024-04-05 20:24] Failed to validate prompt for output 188:
+[2024-04-05 20:24] * SetLatentNoiseMask 195:
+[2024-04-05 20:24]   - Required input is missing: samples
+[2024-04-05 20:24] Output will be ignored
+[2024-04-05 20:24] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:24] 1girl, solo, long_hair, breasts, looking_at_viewer, blush, smile, open_mouth, brown_hair, navel, cleavage, jewelry, bare_shoulders, standing, underwear, purple_eyes, collarbone, panties, heart, thighs, pantyhose, cowboy_shot, earrings, red_hair, censored, detached_sleeves, penis, necklace, nail_polish, huge_breasts, mosaic_censoring, bracelet, covered_nipples, see-through, covered_navel, erection, testicles, hand_on_own_chest, red_nails, side-tie_panties, skin_tight, curvy, veins, futanari, shiny_clothes, mature_female, veiny_penis, foreskin, huge_penis, crotchless, flaccid, half-erect
+[2024-04-05 20:24] Requested to load SD1ClipModel
+[2024-04-05 20:24] Loading 1 new model
+[2024-04-05 20:24] Requested to load BaseModel
+[2024-04-05 20:24] Loading 1 new model
+[2024-04-05 20:24] 100%|██████████████████████████████████████████████████████████████████████████████████| 40/40 [00:34<00:00,  1.14it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 40/40 [00:34<00:00,  1.15it/s]
+[2024-04-05 20:24] Prompt executed in 38.88 seconds
+[2024-04-05 20:25] got prompt
+[2024-04-05 20:25] Failed to validate prompt for output 188:
+[2024-04-05 20:25] * SetLatentNoiseMask 195:
+[2024-04-05 20:25]   - Required input is missing: samples
+[2024-04-05 20:25] Output will be ignored
+[2024-04-05 20:25] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:25] Requested to load SD1ClipModel
+[2024-04-05 20:25] Loading 1 new model
+[2024-04-05 20:25] Requested to load BaseModel
+[2024-04-05 20:25] Loading 1 new model
+[2024-04-05 20:25] 100%|██████████████████████████████████████████████████████████████████████████████████| 40/40 [00:31<00:00,  1.23it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 40/40 [00:31<00:00,  1.28it/s]
+[2024-04-05 20:25] Prompt executed in 34.20 seconds
+[2024-04-05 20:27] got prompt
+[2024-04-05 20:27] Failed to validate prompt for output 188:
+[2024-04-05 20:27] * SetLatentNoiseMask 195:
+[2024-04-05 20:27]   - Required input is missing: samples
+[2024-04-05 20:27] Output will be ignored
+[2024-04-05 20:27] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:27] model_type EPS
+[2024-04-05 20:27] Using xformers attention in VAE
+[2024-04-05 20:27] Using xformers attention in VAE
+[2024-04-05 20:27] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-04-05 20:27] Requested to load SD1ClipModel
+[2024-04-05 20:27] Loading 1 new model
+[2024-04-05 20:27] Requested to load BaseModel
+[2024-04-05 20:27] Loading 1 new model
+[2024-04-05 20:28] 100%|██████████████████████████████████████████████████████████████████████████████████| 40/40 [00:29<00:00,  1.36it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 40/40 [00:29<00:00,  1.35it/s]
+[2024-04-05 20:28] Requested to load AutoencoderKL
+[2024-04-05 20:28] Loading 1 new model
+[2024-04-05 20:28] Prompt executed in 46.36 seconds
+[2024-04-05 20:28] got prompt
+[2024-04-05 20:28] Failed to validate prompt for output 188:
+[2024-04-05 20:28] * SetLatentNoiseMask 195:
+[2024-04-05 20:28]   - Required input is missing: samples
+[2024-04-05 20:28] Output will be ignored
+[2024-04-05 20:28] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:28] model_type EPS
+[2024-04-05 20:28] Using xformers attention in VAE
+[2024-04-05 20:28] Using xformers attention in VAE
+[2024-04-05 20:28] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-04-05 20:28] Requested to load SD1ClipModel
+[2024-04-05 20:28] Loading 1 new model
+[2024-04-05 20:28] Requested to load BaseModel
+[2024-04-05 20:28] Loading 1 new model
+[2024-04-05 20:29] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:46<00:00,  1.31it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:46<00:00,  1.30it/s]
+[2024-04-05 20:29] Requested to load AutoencoderKL
+[2024-04-05 20:29] Loading 1 new model
+[2024-04-05 20:29] Prompt executed in 50.26 seconds
+[2024-04-05 20:29] got prompt
+[2024-04-05 20:29] Failed to validate prompt for output 188:
+[2024-04-05 20:29] * SetLatentNoiseMask 195:
+[2024-04-05 20:29]   - Required input is missing: samples
+[2024-04-05 20:29] Output will be ignored
+[2024-04-05 20:29] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:29] Requested to load SD1ClipModel
+[2024-04-05 20:29] Loading 1 new model
+[2024-04-05 20:29] Requested to load BaseModel
+[2024-04-05 20:29] Loading 1 new model
+[2024-04-05 20:30] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:46<00:00,  1.28it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:46<00:00,  1.28it/s]
+[2024-04-05 20:30] Prompt executed in 49.92 seconds
+[2024-04-05 20:30] got prompt
+[2024-04-05 20:30] Failed to validate prompt for output 188:
+[2024-04-05 20:30] * SetLatentNoiseMask 195:
+[2024-04-05 20:30]   - Required input is missing: samples
+[2024-04-05 20:30] Output will be ignored
+[2024-04-05 20:30] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:30] Requested to load SD1ClipModel
+[2024-04-05 20:30] Loading 1 new model
+[2024-04-05 20:30] Requested to load BaseModel
+[2024-04-05 20:30] Loading 1 new model
+[2024-04-05 20:31] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:50<00:00,  1.16it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:50<00:00,  1.18it/s]
+[2024-04-05 20:31] Prompt executed in 53.85 seconds
+[2024-04-05 20:35] got prompt
+[2024-04-05 20:35] Failed to validate prompt for output 188:
+[2024-04-05 20:35] * SetLatentNoiseMask 195:
+[2024-04-05 20:35]   - Required input is missing: samples
+[2024-04-05 20:35] Output will be ignored
+[2024-04-05 20:35] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:35] Requested to load SD1ClipModel
+[2024-04-05 20:35] Loading 1 new model
+[2024-04-05 20:35] Requested to load BaseModel
+[2024-04-05 20:35] Loading 1 new model
+[2024-04-05 20:35] 
+[2024-04-05 20:35] Processing interrupted
+[2024-04-05 20:35] Prompt executed in 35.62 seconds
+[2024-04-05 20:35] got prompt
+[2024-04-05 20:35] Failed to validate prompt for output 188:
+[2024-04-05 20:35] * SetLatentNoiseMask 195:
+[2024-04-05 20:35]   - Required input is missing: samples
+[2024-04-05 20:35] Output will be ignored
+[2024-04-05 20:35] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:35] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:10<00:00,  5.97it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:10<00:00,  5.86it/s]
+[2024-04-05 20:35] Prompt executed in 10.71 seconds
+[2024-04-05 20:35] got prompt
+[2024-04-05 20:35] Failed to validate prompt for output 188:
+[2024-04-05 20:35] * SetLatentNoiseMask 195:
+[2024-04-05 20:35]   - Required input is missing: samples
+[2024-04-05 20:35] Output will be ignored
+[2024-04-05 20:35] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:36] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:10<00:00,  5.98it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:10<00:00,  5.59it/s]
+[2024-04-05 20:36] Prompt executed in 11.22 seconds
+[2024-04-05 20:36] got prompt
+[2024-04-05 20:36] Failed to validate prompt for output 188:
+[2024-04-05 20:36] * SetLatentNoiseMask 195:
+[2024-04-05 20:36]   - Required input is missing: samples
+[2024-04-05 20:36] Output will be ignored
+[2024-04-05 20:36] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:36] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:10<00:00,  5.86it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:10<00:00,  5.53it/s]
+[2024-04-05 20:36] Prompt executed in 11.33 seconds
+[2024-04-05 20:36] got prompt
+[2024-04-05 20:36] Failed to validate prompt for output 188:
+[2024-04-05 20:36] * SetLatentNoiseMask 195:
+[2024-04-05 20:36]   - Required input is missing: samples
+[2024-04-05 20:36] Output will be ignored
+[2024-04-05 20:36] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:36] Requested to load SD1ClipModel
+[2024-04-05 20:36] Loading 1 new model
+[2024-04-05 20:36] Requested to load BaseModel
+[2024-04-05 20:36] Loading 1 new model
+[2024-04-05 20:36] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:10<00:00,  6.00it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:10<00:00,  5.81it/s]
+[2024-04-05 20:36] Prompt executed in 11.80 seconds
+[2024-04-05 20:37] got prompt
+[2024-04-05 20:37] Failed to validate prompt for output 188:
+[2024-04-05 20:37] * SetLatentNoiseMask 195:
+[2024-04-05 20:37]   - Required input is missing: samples
+[2024-04-05 20:37] Output will be ignored
+[2024-04-05 20:37] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:37] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:23<00:00,  2.65it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:23<00:00,  2.60it/s]
+[2024-04-05 20:37] Prompt executed in 24.11 seconds
+[2024-04-05 20:37] got prompt
+[2024-04-05 20:37] Failed to validate prompt for output 188:
+[2024-04-05 20:37] * SetLatentNoiseMask 195:
+[2024-04-05 20:37]   - Required input is missing: samples
+[2024-04-05 20:37] Output will be ignored
+[2024-04-05 20:37] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:37] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:23<00:00,  2.61it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:23<00:00,  2.53it/s]
+[2024-04-05 20:37] Prompt executed in 24.79 seconds
+[2024-04-05 20:38] got prompt
+[2024-04-05 20:38] Failed to validate prompt for output 188:
+[2024-04-05 20:38] * SetLatentNoiseMask 195:
+[2024-04-05 20:38]   - Required input is missing: samples
+[2024-04-05 20:38] Output will be ignored
+[2024-04-05 20:38] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:38] Requested to load SD1ClipModel
+[2024-04-05 20:38] Loading 1 new model
+[2024-04-05 20:38] Requested to load BaseModel
+[2024-04-05 20:38] Loading 1 new model
+[2024-04-05 20:38] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:23<00:00,  2.61it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:23<00:00,  2.57it/s]
+[2024-04-05 20:38] Prompt executed in 25.35 seconds
+[2024-04-05 20:38] got prompt
+[2024-04-05 20:38] Failed to validate prompt for output 188:
+[2024-04-05 20:38] * SetLatentNoiseMask 195:
+[2024-04-05 20:38]   - Required input is missing: samples
+[2024-04-05 20:38] Output will be ignored
+[2024-04-05 20:38] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:39] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:23<00:00,  2.40it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:23<00:00,  2.52it/s]
+[2024-04-05 20:39] Prompt executed in 24.92 seconds
+[2024-04-05 20:39] got prompt
+[2024-04-05 20:39] Failed to validate prompt for output 188:
+[2024-04-05 20:39] * SetLatentNoiseMask 195:
+[2024-04-05 20:39]   - Required input is missing: samples
+[2024-04-05 20:39] Output will be ignored
+[2024-04-05 20:39] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-05 20:39] Requested to load SD1ClipModel
+[2024-04-05 20:39] Loading 1 new model
+[2024-04-05 20:39] Requested to load BaseModel
+[2024-04-05 20:39] Loading 1 new model
+[2024-04-05 20:39] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:23<00:00,  2.60it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:23<00:00,  2.54it/s]
+[2024-04-05 20:39] Prompt executed in 25.62 seconds

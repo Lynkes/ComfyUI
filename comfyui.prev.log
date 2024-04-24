@@ -1,0 +1,527 @@
+** ComfyUI startup time: 2024-04-12 09:57:27.006041
+[2024-04-12 09:57] ** Platform: Windows
+[2024-04-12 09:57] ** Python version: 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]
+[2024-04-12 09:57] ** Python executable: E:\ComfyUI\venv\Scripts\python.exe
+[2024-04-12 09:57] ** Log path: E:\ComfyUI\comfyui.log
+[2024-04-12 09:57] 
+Prestartup times for custom nodes:
+[2024-04-12 09:57]    0.0 seconds: E:\ComfyUI\custom_nodes\rgthree-comfy
+[2024-04-12 09:57]    0.4 seconds: E:\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-04-12 09:57] 
+Total VRAM 8192 MB, total RAM 32697 MB
+[2024-04-12 09:57] xformers version: 0.0.24
+[2024-04-12 09:57] Set vram state to: NORMAL_VRAM
+[2024-04-12 09:57] Device: cuda:0 NVIDIA GeForce RTX 3060 Ti : cudaMallocAsync
+[2024-04-12 09:57] VAE dtype: torch.bfloat16
+[2024-04-12 09:57] Using xformers cross attention
+[2024-04-12 09:57] Adding extra search path checkpoints E:\stable-diffusion-webui\models/Stable-diffusion
+[2024-04-12 09:57] Adding extra search path configs E:\stable-diffusion-webui\models/Stable-diffusion
+[2024-04-12 09:57] Adding extra search path vae E:\stable-diffusion-webui\models/VAE
+[2024-04-12 09:57] Adding extra search path loras E:\stable-diffusion-webui\models/Lora
+[2024-04-12 09:57] Adding extra search path loras E:\stable-diffusion-webui\models/LyCORIS
+[2024-04-12 09:57] Adding extra search path upscale_models E:\stable-diffusion-webui\models/ESRGAN
+[2024-04-12 09:57] Adding extra search path upscale_models E:\stable-diffusion-webui\models/RealESRGAN
+[2024-04-12 09:57] Adding extra search path upscale_models E:\stable-diffusion-webui\models/SwinIR
+[2024-04-12 09:57] Adding extra search path embeddings E:\stable-diffusion-webui\embeddings
+[2024-04-12 09:57] Adding extra search path hypernetworks E:\stable-diffusion-webui\models/hypernetworks
+[2024-04-12 09:57] Adding extra search path controlnet E:\stable-diffusion-webui\models/ControlNet
+[2024-04-12 09:57] Error:
+[WinError 1314] O cliente não tem o privilégio necessário: 'E:\\ComfyUI\\custom_nodes\\ComfyLiterals\\js' -> 'E:\\ComfyUI\\web\\extensions\\ComfyLiterals'
+Failed to create symlink to E:\ComfyUI\web\extensions\ComfyLiterals. Please copy the folder manually.
+Source: E:\ComfyUI\custom_nodes\ComfyLiterals\js
+Target: E:\ComfyUI\web\extensions\ComfyLiterals
+[2024-04-12 09:57] Adding E:\ComfyUI\custom_nodes to sys.path
+[2024-04-12 09:57] [36mEfficiency Nodes:[0m Attempting to add Control Net options to the 'HiRes-Fix Script' Node (comfyui_controlnet_aux add-on)...[92mSuccess![0m
+[2024-04-12 09:57] Loaded efficiency nodes from E:\ComfyUI\custom_nodes\efficiency-nodes-comfyui
+[2024-04-12 09:57] Loaded ControlNetPreprocessors nodes from E:\ComfyUI\custom_nodes\comfyui_controlnet_aux
+[2024-04-12 09:57] Could not find AdvancedControlNet nodes
+[2024-04-12 09:57] Could not find AnimateDiff nodes
+[2024-04-12 09:57] Loaded IPAdapter nodes from E:\ComfyUI\custom_nodes\ComfyUI_IPAdapter_plus
+[2024-04-12 09:57] metaclass conflict: the metaclass of a derived class must be a (non-strict) subclass of the metaclasses of all its bases
+[2024-04-12 09:57] Loaded VideoHelperSuite from E:\ComfyUI\custom_nodes\ComfyUI-VideoHelperSuite
+[2024-04-12 09:57] ### Loading: ComfyUI-Impact-Pack (V4.85.2)
+[2024-04-12 09:57] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
+[2024-04-12 09:57] [Impact Pack] Wildcards loading done.
+[2024-04-12 09:57] [36;20m[inference_core_nodes.controlnet_preprocessors] | INFO -> Using ckpts path: E:\ComfyUI\custom_nodes\ComfyUI-Inference-Core-Nodes\src\inference_core_nodes\controlnet_preprocessors\ckpts[0m
+[2024-04-12 09:57] [36;20m[inference_core_nodes.controlnet_preprocessors] | INFO -> Using symlinks: False[0m
+[2024-04-12 09:57] [36;20m[inference_core_nodes.controlnet_preprocessors] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-04-12 09:57] E:\ComfyUI\venv\lib\site-packages\diffusers\utils\outputs.py:63: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  torch.utils._pytree._register_pytree_node(
+[2024-04-12 09:57] ### Loading: ComfyUI-Manager (V2.15)
+[2024-04-12 09:57] ### ComfyUI Revision: 2096 [6c6a3925] | Released on '2024-04-02'
+[2024-04-12 09:57] (pysssss:WD14Tagger) [DEBUG] Available ORT providers: TensorrtExecutionProvider, CUDAExecutionProvider, CPUExecutionProvider
+[2024-04-12 09:57] (pysssss:WD14Tagger) [DEBUG] Using ORT providers: CUDAExecutionProvider, CPUExecutionProvider
+[2024-04-12 09:57] ------------------------------------------
+[2024-04-12 09:57] [34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+[2024-04-12 09:57] ------------------------------------------
+[2024-04-12 09:57] ** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+[2024-04-12 09:57] ** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+[2024-04-12 09:57] ------------------------------------------
+[2024-04-12 09:57] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-04-12 09:57] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-04-12 09:57] 
+[2024-04-12 09:57] [92m[rgthree] Loaded 36 exciting nodes.[0m
+[2024-04-12 09:57] [92m[rgthree] Will use rgthree's optimized recursive execution.[0m
+[2024-04-12 09:57] 
+[2024-04-12 09:57] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-04-12 09:57] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-04-12 09:57] [34mWAS Node Suite: [0mBlenderNeko's Advanced CLIP Text Encode found, attempting to enable `CLIPTextEncode` support.[0m
+[2024-04-12 09:57] [34mWAS Node Suite: [0m`CLIPTextEncode (BlenderNeko Advanced + NSP)` node enabled under `WAS Suite/Conditioning` menu.[0m
+[2024-04-12 09:57] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-04-12 09:57] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `E:\ComfyUI\custom_nodes\was-node-suite-comfyui\was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-04-12 09:57] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m212[0m [32mnodes successfully.[0m
+[2024-04-12 09:57] 
+	[3m[93m"Art is the lie that enables us to recognize the truth."[0m[3m - Friedrich Nietzsche[0m
+[2024-04-12 09:57] 
+[2024-04-12 09:57] 
+Import times for custom nodes:
+[2024-04-12 09:57]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyUI_IPAdapter_plus
+[2024-04-12 09:57]    0.0 seconds: E:\ComfyUI\custom_nodes\efficiency-nodes-comfyui
+[2024-04-12 09:57]    0.0 seconds: E:\ComfyUI\custom_nodes\websocket_image_save.py
+[2024-04-12 09:57]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyUI-VideoHelperSuite
+[2024-04-12 09:57]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyUI-Logic
+[2024-04-12 09:57]    0.0 seconds: E:\ComfyUI\custom_nodes\comfyui_controlnet_aux
+[2024-04-12 09:57]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyUI_ADV_CLIP_emb
+[2024-04-12 09:57]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyUI_essentials
+[2024-04-12 09:57]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyUI-Lora-Auto-Trigger-Words
+[2024-04-12 09:57]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyUI-post-processing-nodes
+[2024-04-12 09:57]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyLiterals
+[2024-04-12 09:57]    0.0 seconds: E:\ComfyUI\custom_nodes\comfyui-inpaint-nodes
+[2024-04-12 09:57]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyUI-WD14-Tagger
+[2024-04-12 09:57]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyUI-Custom-Scripts
+[2024-04-12 09:57]    0.0 seconds: E:\ComfyUI\custom_nodes\Derfuu_ComfyUI_ModdedNodes
+[2024-04-12 09:57]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyUI-Frame-Interpolation
+[2024-04-12 09:57]    0.0 seconds: E:\ComfyUI\custom_nodes\rgthree-comfy
+[2024-04-12 09:57]    0.0 seconds: E:\ComfyUI\custom_nodes\ComfyUI_Comfyroll_CustomNodes
+[2024-04-12 09:57]    0.1 seconds: E:\ComfyUI\custom_nodes\ComfyUI-KJNodes
+[2024-04-12 09:57]    0.4 seconds: E:\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-04-12 09:57]    0.4 seconds: E:\ComfyUI\custom_nodes\ComfyUI-Gemini
+[2024-04-12 09:57]    1.1 seconds: E:\ComfyUI\custom_nodes\ComfyUI-Impact-Pack
+[2024-04-12 09:57]    1.1 seconds: E:\ComfyUI\custom_nodes\ComfyUI-Inference-Core-Nodes
+[2024-04-12 09:57]    1.9 seconds: E:\ComfyUI\custom_nodes\was-node-suite-comfyui
+[2024-04-12 09:57]    2.1 seconds: E:\ComfyUI\custom_nodes\comfyui-art-venture
+[2024-04-12 09:57] 
+[2024-04-12 09:57] Starting server
+
+[2024-04-12 09:57] To see the GUI go to: http://0.0.0.0:8188
+[2024-04-12 10:51] FETCH DATA from: E:\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json
+[2024-04-12 11:01] got prompt
+[2024-04-12 11:01] Failed to validate prompt for output 185:
+[2024-04-12 11:01] * LoraLoader|pysssss 57:
+[2024-04-12 11:01]   - Value not in list: lora_name: '{'content': 'Big Futa v0.4.safetensors', 'image': None}' not in (list of length 1004)
+[2024-04-12 11:01] Output will be ignored
+[2024-04-12 11:01] Failed to validate prompt for output 188:
+[2024-04-12 11:01] Output will be ignored
+[2024-04-12 11:01] Failed to validate prompt for output 9:
+[2024-04-12 11:01] Output will be ignored
+[2024-04-12 11:01] Failed to validate prompt for output 165:
+[2024-04-12 11:01] Output will be ignored
+[2024-04-12 11:01] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-12 11:01] [32m[rgthree][0m First run patching recursive_output_delete_if_changed and recursive_will_execute.[0m
+[2024-04-12 11:01] [33m[rgthree] Note: [0mIf execution seems broken due to forward ComfyUI changes, you can disable the optimization from rgthree settings in ComfyUI.[0m
+[2024-04-12 11:01] 1girl, long_hair, long_sleeves, dress, holding, sitting, standing, multiple_boys, indoors, english_text, chair, table, instrument, microphone, desk, music, guitar, dark, playing_instrument, stage, drum, piano, drum_set, concert
+[2024-04-12 11:01] Prompt executed in 2.33 seconds
+[2024-04-12 11:02] got prompt
+[2024-04-12 11:02] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-12 11:02] 1girl, long_hair, long_sleeves, dress, holding, sitting, standing, multiple_boys, indoors, english_text, chair, table, instrument, microphone, desk, music, guitar, dark, playing_instrument, stage, drum, piano, drum_set, concert
+[2024-04-12 11:02] model_type EPS
+[2024-04-12 11:02] Using xformers attention in VAE
+[2024-04-12 11:02] Using xformers attention in VAE
+[2024-04-12 11:02] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-04-12 11:02] Requested to load SDXLClipModel
+[2024-04-12 11:02] Loading 1 new model
+[2024-04-12 11:02] E:\ComfyUI\comfy\ldm\modules\attention.py:345: UserWarning: 1Torch was not compiled with flash attention. (Triggered internally at ..\aten\src\ATen\native\transformers\cuda\sdp_utils.cpp:263.)
+  out = torch.nn.functional.scaled_dot_product_attention(q, k, v, attn_mask=mask, dropout_p=0.0, is_causal=False)
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:02] Requested to load SDXL
+[2024-04-12 11:02] Loading 1 new model
+[2024-04-12 11:02] 
+[2024-04-12 11:02] Processing interrupted
+[2024-04-12 11:02] Prompt executed in 55.68 seconds
+[2024-04-12 11:03] got prompt
+[2024-04-12 11:03] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-12 11:03] model_type EPS
+[2024-04-12 11:03] Using xformers attention in VAE
+[2024-04-12 11:03] Using xformers attention in VAE
+[2024-04-12 11:03] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-04-12 11:03] Requested to load SDXLClipModel
+[2024-04-12 11:03] Loading 1 new model
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:03] Requested to load SDXL
+[2024-04-12 11:03] Loading 1 new model
+[2024-04-12 11:04] 
+[2024-04-12 11:04] Processing interrupted
+[2024-04-12 11:04] Prompt executed in 36.42 seconds
+[2024-04-12 11:04] got prompt
+[2024-04-12 11:04] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-12 11:05] 1girl, long_hair, multiple_girls, skirt, black_hair, standing, multiple_boys, indoors, instrument, microphone, web_address, science_fiction, music, guitar, dark, playing_instrument, microphone_stand, drum, stage, lights, keyboard_\(instrument\), stage_lights, drum_set, concert
+[2024-04-12 11:05] model_type EPS
+[2024-04-12 11:05] Using xformers attention in VAE
+[2024-04-12 11:05] Using xformers attention in VAE
+[2024-04-12 11:05] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-04-12 11:05] Requested to load SDXLClipModel
+[2024-04-12 11:05] Loading 1 new model
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:05] Requested to load SDXL
+[2024-04-12 11:05] Loading 1 new model
+[2024-04-12 11:07] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [01:44<00:00,  1.71s/it]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [01:44<00:00,  1.74s/it]
+[2024-04-12 11:07] Requested to load AutoencoderKL
+[2024-04-12 11:07] Loading 1 new model
+[2024-04-12 11:07] Requested to load SDXL
+[2024-04-12 11:07] Loading 1 new model
+[2024-04-12 11:07] got prompt
+[2024-04-12 11:07] 
+[2024-04-12 11:07] Processing interrupted
+[2024-04-12 11:07] Prompt executed in 185.36 seconds
+[2024-04-12 11:07] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-12 11:08] 1girl, long_hair, multiple_girls, skirt, black_hair, standing, multiple_boys, indoors, instrument, microphone, web_address, science_fiction, music, guitar, dark, playing_instrument, microphone_stand, drum, stage, lights, keyboard_\(instrument\), stage_lights, drum_set, concert
+[2024-04-12 11:08] Requested to load SDXLClipModel
+[2024-04-12 11:08] Loading 1 new model
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] WARNING: shape mismatch when trying to apply embedding, embedding will be ignored 768 != 1280
+[2024-04-12 11:08] Requested to load SDXL
+[2024-04-12 11:08] Loading 1 new model
+[2024-04-12 11:09] 
+[2024-04-12 11:09] Processing interrupted
+[2024-04-12 11:09] Prompt executed in 69.55 seconds
+[2024-04-12 11:09] got prompt
+[2024-04-12 11:09] Failed to validate prompt for output 188:
+[2024-04-12 11:09] * SetLatentNoiseMask 195:
+[2024-04-12 11:09]   - Required input is missing: samples
+[2024-04-12 11:09] Output will be ignored
+[2024-04-12 11:09] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-04-12 11:09] Requested to load SDXLClipModel
+[2024-04-12 11:09] Loading 1 new model
+[2024-04-12 11:09] Requested to load SDXL
+[2024-04-12 11:09] Loading 1 new model
+[2024-04-12 11:09] 100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:25<00:00,  2.43it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 60/60 [00:25<00:00,  2.32it/s]
+[2024-04-12 11:09] Requested to load AutoencoderKL
+[2024-04-12 11:09] Loading 1 new model
+[2024-04-12 11:09] Prompt executed in 31.17 seconds
