@@ -54,6 +54,8 @@ def prepare_environment():
     if not os.path.isfile(requirements_file):
         requirements_file = os.path.join(script_path, requirements_file)
     run_pip(f"install -r \"{requirements_file}\"", "requirements for Python Venv")
+    run_pip(f"install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121", "requirements for Python Venv")
+
 
 if __name__ == "__main__":
     prepare_environment()
